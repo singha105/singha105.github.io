@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Application Programming and Hacking</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fdfdfd;
+      color: #333;
+      margin: 40px auto;
+      max-width: 900px;
+      line-height: 1.6;
+    }
+
+    h1, h2 {
+      color: #2c3e50;
+      border-bottom: 2px solid #e74c3c;
+      padding-bottom: 5px;
+    }
+
+    h3 {
+      color: #e74c3c;
+      margin-top: 40px;
+    }
+
+    a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    p {
+      margin: 10px 0 20px;
+    }
+
+    .back-link {
+      margin-top: 50px;
+      display: inline-block;
+      background-color: #e74c3c;
+      color: white;
+      padding: 10px 18px;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+
+    .back-link:hover {
+      background-color: #c0392b;
+    }
+
+    .section {
+      background-color: #f9f9f9;
+      padding: 20px 25px;
+      border-left: 5px solid #e74c3c;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    .meta {
+      font-size: 0.95em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Web Application Programming and Hacking</h1>
+  <h2>Front-End Development Lab</h2>
+
+  <p class="meta"><strong>Instructor:</strong> Dr. Phu Phung</p>
+  <p class="meta"><strong>Student Name:</strong> Arnab Singh</p>
+
+  <p>A simple HTML page<br>
+  Using the <a href="https://www.w3schools.com/html/html_templates.asp" target="_blank">W3Schools template</a></p>
+
+  <div class="section">
+    <h3>Web Application Programming and Hacking Course Information</h3>
+    <p>
+      This course introduces students to the fundamentals of web development and cybersecurity. Topics include front-end programming
+      (HTML5, CSS, JavaScript) and back-end scripting (PHP, MySQL). Students explore common vulnerabilities such as XSS, CSRF, and
+      SQL Injection, and learn to apply secure coding practices through hands-on labs, hackathons, and a project.
+    </p>
+  </div>
+
+  <div class="section">
+    <h3>Overview of Lab 0</h3>
+    <p>
+      Lab 0 was focused on environment setup. I configured an Ubuntu VM and installed essential tools such as Apache2, Git, and net-tools.
+      I also cloned the course repository from GitHub and ensured proper Apache configuration for web access using localhost.
+    </p>
+  </div>
+
+  <div class="section">
+    <h3>Overview of Lab 1</h3>
+    <p>
+      This lab explored HTTP fundamentals. I used Telnet to manually craft HTTP requests and analyzed traffic using Wireshark. Additionally,
+      I created a simple PHP-based form to process GET and POST requests. These activities reinforced understanding of HTTP protocols.
+    </p>
+  </div>
+
+  <div class="section">
+    <h3>Overview of Lab 2</h3>
+    <p>
+      Lab 2 focused on Cross-Site Scripting (XSS). I created an HTML page vulnerable to JavaScript injection, then demonstrated payloads
+      that exploited it. I also integrated public APIs (Joke API and Weather) using jQuery and Fetch, while testing defenses like encoding
+      and content sanitization.
+    </p>
+  </div>
+
+  <div class="section">
+    <h3>Overview of Hackathon 1</h3>
+    <p>
+      Hackathon 1 challenged students to exploit advanced XSS vulnerabilities in a lab environment. I used injection techniques in URL paths
+      and HTML attributes (e.g., onmouseover) to trigger alerts. This activity deepened my understanding of web security risks and the
+      importance of strong input validation.
+    </p>
+  </div>
+
+  <div class="section">
+    <h3>Overview of Individual Project</h3>
+    <p>
+      The final project involved building an interactive resume website using HTML, CSS, Bootstrap, JavaScript, and jQuery. Features included
+      digital and analog clocks, cookie-based visit tracking, public API integrations (joke, comic, weather), and a dark mode toggle.
+      This project showcased my ability to combine design, interactivity, and basic security principles into a professional web application.
+    </p>
+  </div>
+
+  <a class="back-link" href="index.html">⬅ Back to Resume</a>
+
+</body>
+</html>
