@@ -299,3 +299,19 @@ fetch(`https://api.weatherapi.com/v1/current.json?key=${weatherAPIKey}&q=${city}
 
   showWelcomeMessage();
 });
+function fillSkillBars() {
+    document.querySelectorAll('.progress-bar').forEach(bar => {
+      const width = bar.getAttribute('data-width');
+      if (width) {
+        bar.style.width = width;
+      }
+    });
+  }
+
+  // Run when skills come into view
+  document.addEventListener('DOMContentLoaded', () => {
+    fillSkillBars(); // Load immediately on page load
+  });
+
+  // Fill progress bars before printing
+  window.addEventListener('beforeprint', fillSkillBars);
